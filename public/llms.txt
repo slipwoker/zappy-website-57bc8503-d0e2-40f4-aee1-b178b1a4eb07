@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://top-shirts-57bc8503.zappy5.app
+https://example.com
 גלו את קולקציית חולצות הספורט המובילה עם הדפסים אישיים לפי שם ומספר. בחרו ממגוון ליגות ומועדונים, ותיהנו מחוויית קנייה ייחודית שמביאה את אהבת הכדורגל לכל מגרש. התחילו לעצב עכשיו!
 
 ### ליגות
-https://top-shirts-57bc8503.zappy5.app/leagues
+https://example.com/leagues
 דפדפו בין הליגות המובילות בעולם כמו הפרמייר ליג והלה ליגה. מצאו חולצות ספורט רשמיות לכל קבוצה, עם אפשרות להתאמה אישית שתגרום לכם להתבלט ביציע. הצטרפו לחגיגת הכדורגל עוד היום!
 
 ### מועדונים
-https://top-shirts-57bc8503.zappy5.app/clubs
+https://example.com/clubs
 מנצ&#39;סטר סיטי, ברצלונה ועוד מחכים לכם עם חולצות איכותיות. כל דגם זמין להתאמה אישית עם השם והמספר שלכם, כך שתוכלו להרגיש חלק מהקבוצה. לחצו כאן כדי למצוא את החולצה המושלמת!
 
 ### התאמה אישית
-https://top-shirts-57bc8503.zappy5.app/customization
+https://example.com/customization
 עצבו חולצת כדורגל ייחודית עם השם והמספר שתבחרו. ממדי ספורט לגברים ועד חולצות ספורט לנשים, תנו דרור ליצירתיות והפכו כל משחק לחוויה אישית. התחילו להתאים אישית עכשיו!
 
 ### צור קשר
-https://top-shirts-57bc8503.zappy5.app/contact
+https://example.com/contact
 יש לכם שאלה לגבי חולצות הספורט או ההתאמה האישית? צרו קשר עם הצוות שלנו לקבלת ייעוץ מהיר, מענה על הזמנות וטיפים לבחירת החולצה המושלמת. אנחנו כאן כדי לעזור לכם לנצח!
 
 ### תודה על פנייתך | TOP shirts
-https://top-shirts-57bc8503.zappy5.app/thank-you
+https://example.com/thank-you
 TOP shirts - תודה על פנייתך | TOP shirts
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://top-shirts-57bc8503.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://top-shirts-57bc8503.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://top-shirts-57bc8503.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://top-shirts-57bc8503.zappy5.app/contact
-- Endpoint: https://top-shirts-57bc8503.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -81,6 +81,6 @@ E-commerce / Sports Apparel
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://top-shirts-57bc8503.zappy5.app/sitemap.xml
-- Robots: https://top-shirts-57bc8503.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://top-shirts-57bc8503.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
