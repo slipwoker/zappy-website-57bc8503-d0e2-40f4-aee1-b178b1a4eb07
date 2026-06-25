@@ -7581,6 +7581,229 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* AI-generated section */
+.jersey-album {
+  background: #f8f9fb;
+  padding: 80px 20px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.album-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Header */
+.album-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.album-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary, #1B1F3A);
+  margin: 0 0 12px 0;
+  line-height: 1.2;
+}
+
+.album-subtitle {
+  font-size: 1.125rem;
+  color: #5a6270;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Grid */
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+/* Jersey Card */
+.jersey-card {
+  background: #ffffff;
+  border: 1px solid #e8ecf1;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.jersey-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(27, 31, 58, 0.1);
+  border-color: #d0d5e0;
+}
+
+.jersey-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: #f4f5f7;
+}
+
+.jersey-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.jersey-card:hover .jersey-image {
+  transform: scale(1.05);
+}
+
+/* Jersey Info */
+.jersey-info {
+  padding: 16px 16px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.jersey-league {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #7a8494;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.jersey-team {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary, #1B1F3A);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.jersey-price {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #1B1F3A;
+  margin: 0;
+  direction: ltr;
+  text-align: right;
+}
+
+/* Footer CTA */
+.album-footer {
+  text-align: center;
+}
+
+.album-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary, #1B1F3A);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 14px 32px;
+  border-radius: 50px;
+  transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 14px rgba(27, 31, 58, 0.2);
+}
+
+.album-cta:hover {
+  background: #252a4a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(27, 31, 58, 0.3);
+}
+
+.album-cta:focus-visible {
+  outline: 3px solid #1B1F3A;
+  outline-offset: 3px;
+}
+
+.cta-arrow {
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.album-cta:hover .cta-arrow {
+  transform: translateX(-4px);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .album-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .album-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .jersey-album {
+    padding: 60px 16px;
+  }
+  
+  .album-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  
+  .album-title {
+    font-size: 1.85rem;
+  }
+  
+  .album-subtitle {
+    font-size: 1rem;
+  }
+  
+  .jersey-info {
+    padding: 12px 12px 14px 12px;
+  }
+  
+  .jersey-team {
+    font-size: 1rem;
+  }
+  
+  .jersey-price {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .album-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .jersey-album {
+    padding: 40px 10px;
+  }
+  
+  .album-title {
+    font-size: 1.6rem;
+  }
+  
+  .album-subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .album-cta {
+    font-size: 0.95rem;
+    padding: 12px 24px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
