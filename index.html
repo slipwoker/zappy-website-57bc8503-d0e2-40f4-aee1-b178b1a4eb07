@@ -258,6 +258,260 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-section-5-section {
+  background-color: #0A0A0F;
+  color: var(--text-light);
+  padding: 80px 16px;
+  position: relative;
+  overflow: visible;
+  direction: rtl;
+}
+
+.home-section-5-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section Heading */
+.home-section-5-section__heading {
+  text-align: right;
+  margin-bottom: 48px;
+}
+
+.home-section-5-section__heading h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.home-section-5-section__heading p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #AAAACC;
+  max-width: 600px;
+  margin-inline-start: auto;
+}
+
+/* League Band */
+.league-band {
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.league-band:last-of-type {
+  margin-bottom: 40px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.league-band__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.league-band__accent {
+  width: 4px;
+  height: 24px;
+  border-radius: 2px;
+  background: #C8F000;
+  flex-shrink: 0;
+}
+
+.league-band__accent--laliga {
+  background: #EE3333;
+}
+
+.league-band__accent--seriea {
+  background: #0066CC;
+}
+
+.league-band__accent--bundesliga {
+  background: #CC0000;
+}
+
+.league-band__accent--ucl {
+  background: #1A3A8A;
+}
+
+.league-band__accent--national {
+  background: #FFAA00;
+}
+
+.league-band__header h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.league-band__count {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #6B7280;
+  margin-inline-start: auto;
+  white-space: nowrap;
+}
+
+/* League Grid */
+.league-band__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  direction: rtl;
+}
+
+/* Jersey Card */
+.jersey-card {
+  background: #1A1A28;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 0;
+}
+
+.jersey-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(200, 240, 0, 0.15);
+}
+
+.jersey-card__image-area {
+  background: #F3F4F6;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.jersey-card__image-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 180px;
+  max-height: 240px;
+}
+
+.jersey-card__info {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.jersey-card__team {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #FFFFFF;
+}
+
+.jersey-card__price {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #C8F000;
+}
+
+/* CTA */
+.home-section-5-section__cta {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.btn-primary {
+  background: #C8F000;
+  color: #0A0A0F;
+  padding: 14px 28px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #D4F820;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .league-band__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section-5-section {
+    padding: 60px 16px;
+  }
+
+  .home-section-5-section__heading h2 {
+    font-size: 1.75rem;
+  }
+
+  .league-band__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px;
+  }
+
+  .jersey-card__image-area {
+    padding: 12px;
+  }
+
+  .jersey-card__image-area img {
+    max-width: 140px;
+    max-height: 180px;
+  }
+
+  .league-band {
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .league-band__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px;
+  }
+
+  .jersey-card__team {
+    font-size: 0.75rem;
+  }
+
+  .jersey-card__price {
+    font-size: 0.75rem;
+  }
+
+  .jersey-card__info {
+    padding: 8px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "57bc8503-d0e2-40f4-aee1-b178b1a4eb07"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1088,166 +1342,360 @@
   <div class="crowd-texture" aria-hidden="true"></div>
 </section>
 
-<section class="jersey-album" aria-labelledby="album-heading">
-  <div class="album-container">
-    <div class="album-header">
-      <h2 id="album-heading" class="album-title">אלבום חולצות הכדורגל</h2>
-      <p class="album-subtitle">מגוון חולצות כדורגל מקוריות מכל הקבוצות והליגות — עונת 2025/26</p>
+<section class="home-section-5-section" data-layout-spec="Home-section-5">
+  <div class="home-section-5-section__container">
+    <div class="home-section-5-section__heading">
+      <h2>קטלוג חולצות לפי ליגות</h2>
+      <p>בחרו את הליגה המועדפת עליכם וגלו את החולצות הרשמיות של כל הקבוצות. התאמה אישית זמינה לכל דגם.</p>
     </div>
 
-    <div class="album-grid">
-      <!-- Jersey Card 1 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-barcelona-1" data-context="ברצלונה חולצת כדורגל ביתית עונת 2025/26, צבעי כחול-אדום עם ספונסר ראשי ספוטיפיי, צילום מוצר על רקע לבן נקי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%91%D7%A8%D7%A6%D7%9C%D7%95%D7%A0%D7%94%3C/text%3E%3C/svg%3E" alt="חולצת ברצלונה ביתית 2025/26" class="jersey-image" loading="lazy">
+    <!-- League 1: Premier League -->
+    <div class="league-band">
+      <div class="league-band__header">
+        <span class="league-band__accent"></span>
+        <h3>פרמייר ליג</h3>
+        <span class="league-band__count">6 קבוצות</span>
+      </div>
+      <div class="league-band__grid">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Manchester City home jersey 2024 sky blue with white trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-1.webp" alt="חולצת מנצ׳סטר סיטי בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">מנצ׳סטר סיטי</span>
+            <span class="jersey-card__price">₪299</span>
+          </div>
         </div>
-        <div class="jersey-info">
-          <span class="jersey-league">לה ליגה</span>
-          <h3 class="jersey-team">ברצלונה</h3>
-          <p class="jersey-price">149₪</p>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Arsenal home jersey 2024 red with white sleeves, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-2.webp" alt="חולצת ארסנל בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ארסנל</span>
+            <span class="jersey-card__price">₪279</span>
+          </div>
         </div>
-      </article>
-
-      <!-- Jersey Card 2 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-real-madrid-2" data-context="ריאל מדריד חולצת כדורגל ביתית לבנה עונת 2025/26, צילום מוצר מקצועי על רקע אפור בהיר" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%A8%D7%99%D7%90%D7%9C%20%D7%9E%D7%93%D7%A8%D7%99%D7%93%3C/text%3E%3C/svg%3E" alt="חולצת ריאל מדריד ביתית 2025/26" class="jersey-image" loading="lazy">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Liverpool home jersey 2024 red, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-3.webp" alt="חולצת ליברפול בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ליברפול</span>
+            <span class="jersey-card__price">₪289</span>
+          </div>
         </div>
-        <div class="jersey-info">
-          <span class="jersey-league">לה ליגה</span>
-          <h3 class="jersey-team">ריאל מדריד</h3>
-          <p class="jersey-price">179₪</p>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Manchester United home jersey 2024 red with black trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-4.webp" alt="חולצת מנצ׳סטר יונייטד בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">מנצ׳סטר יונייטד</span>
+            <span class="jersey-card__price">₪299</span>
+          </div>
         </div>
-      </article>
-
-      <!-- Jersey Card 3 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-man-city-3" data-context="מנצ'סטר סיטי חולצת כדורגל ביתית תכלת עונת 2025/26, צילום מוצר איכותי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%9E%D7%A0%D7%A6%27%D7%A1%D7%98%D7%A8%20%D7%A1%D7%99%D7%98%D7%99%3C/text%3E%3C/svg%3E" alt="חולצת מנצ'סטר סיטי ביתית 2025/26" class="jersey-image" loading="lazy">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Chelsea home jersey 2024 blue, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-5.webp" alt="חולצת צ׳לסי בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">צ׳לסי</span>
+            <span class="jersey-card__price">₪269</span>
+          </div>
         </div>
-        <div class="jersey-info">
-          <span class="jersey-league">פרמייר ליג</span>
-          <h3 class="jersey-team">מנצ'סטר סיטי</h3>
-          <p class="jersey-price">199₪</p>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Tottenham Hotspur home jersey 2024 white, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-6.webp" alt="חולצת טוטנהאם בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">טוטנהאם</span>
+            <span class="jersey-card__price">₪259</span>
+          </div>
         </div>
-      </article>
-
-      <!-- Jersey Card 4 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-liverpool-4" data-context="ליברפול חולצת כדורגל ביתית אדומה עונת 2025/26, צילום מוצר על רקע לבן" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%9C%D7%99%D7%91%D7%A8%D7%A4%D7%95%D7%9C%3C/text%3E%3C/svg%3E" alt="חולצת ליברפול ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">פרמייר ליג</span>
-          <h3 class="jersey-team">ליברפול</h3>
-          <p class="jersey-price">179₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 5 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-chelsea-5" data-context="צ'לסי חולצת כדורגל ביתית כחולה עונת 2025/26, צילום מוצר מקצועי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%A6%27%D7%9C%D7%A1%D7%99%3C/text%3E%3C/svg%3E" alt="חולצת צ'לסי ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">פרמייר ליג</span>
-          <h3 class="jersey-team">צ'לסי</h3>
-          <p class="jersey-price">149₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 6 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-arsenal-6" data-context="ארסנל חולצת כדורגל ביתית אדומה-לבנה עונת 2025/26, צילום מוצר איכותי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%90%D7%A8%D7%A1%D7%A0%D7%9C%3C/text%3E%3C/svg%3E" alt="חולצת ארסנל ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">פרמייר ליג</span>
-          <h3 class="jersey-team">ארסנל</h3>
-          <p class="jersey-price">179₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 7 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-bayern-7" data-context="באיירן מינכן חולצת כדורגל ביתית אדומה עונת 2025/26, צילום מוצר על רקע לבן" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%91%D7%90%D7%99%D7%99%D7%A8%D7%9F%20%D7%9E%D7%99%D7%A0%D7%9B%D7%9F%3C/text%3E%3C/svg%3E" alt="חולצת באיירן מינכן ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">בונדסליגה</span>
-          <h3 class="jersey-team">באיירן מינכן</h3>
-          <p class="jersey-price">199₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 8 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-juventus-8" data-context="יובנטוס חולצת כדורגל ביתית שחור-לבן עונת 2025/26, צילום מוצר מקצועי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%99%D7%95%D7%91%D7%A0%D7%98%D7%95%D7%A1%3C/text%3E%3C/svg%3E" alt="חולצת יובנטוס ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">סרייה א'</span>
-          <h3 class="jersey-team">יובנטוס</h3>
-          <p class="jersey-price">149₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 9 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-psg-9" data-context="פריז סן ז'רמן חולצת כדורגל ביתית כחולה-אדומה עונת 2025/26, צילום מוצר איכותי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%A4.%D7%A1.%D7%96%27%3C/text%3E%3C/svg%3E" alt="חולצת פ.ס.ז' ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">ליגת האלופות</span>
-          <h3 class="jersey-team">פ.ס.ז'</h3>
-          <p class="jersey-price">179₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 10 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-inter-10" data-context="אינטר מילאנו חולצת כדורגל ביתית כחולה-שחורה עונת 2025/26, צילום מוצר על רקע לבן" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%90%D7%99%D7%A0%D7%98%D7%A8%20%D7%9E%D7%99%D7%9C%D7%90%D7%A0%D7%95%3C/text%3E%3C/svg%3E" alt="חולצת אינטר מילאנו ביתית 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">סרייה א'</span>
-          <h3 class="jersey-team">אינטר מילאנו</h3>
-          <p class="jersey-price">149₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 11 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-argentina-11" data-context="נבחרת ארגנטינה חולצת כדורגל ביתית פסים כחול-לבן עונת 2025/26, צילום מוצר מקצועי" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%90%D7%A8%D7%92%D7%A0%D7%98%D7%99%D7%A0%D7%94%3C/text%3E%3C/svg%3E" alt="חולצת נבחרת ארגנטינה 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">נבחרות</span>
-          <h3 class="jersey-team">נבחרת ארגנטינה</h3>
-          <p class="jersey-price">199₪</p>
-        </div>
-      </article>
-
-      <!-- Jersey Card 12 -->
-      <article class="jersey-card">
-        <div class="jersey-image-wrapper">
-          <img data-placeholder="jersey-brazil-12" data-context="נבחרת ברזיל חולצת כדורגל ביתית צהובה עונת 2025/26, צילום מוצר איכותי על רקע לבן" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27500%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3E%D7%91%D7%A8%D7%96%D7%99%D7%9C%3C/text%3E%3C/svg%3E" alt="חולצת נבחרת ברזיל 2025/26" class="jersey-image" loading="lazy">
-        </div>
-        <div class="jersey-info">
-          <span class="jersey-league">נבחרות</span>
-          <h3 class="jersey-team">נבחרת ברזיל</h3>
-          <p class="jersey-price">179₪</p>
-        </div>
-      </article>
+      </div>
     </div>
 
-    <div class="album-footer">
-      <a href="/leagues" class="album-cta" aria-label="צפייה בכל חולצות הכדורגל">
-        לצפייה בכל החולצות
-        <svg class="cta-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M12 4L8 10L12 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-        </svg>
-      </a>
+    <!-- League 2: La Liga -->
+    <div class="league-band">
+      <div class="league-band__header">
+        <span class="league-band__accent league-band__accent--laliga"></span>
+        <h3>לה ליגה</h3>
+        <span class="league-band__count">5 קבוצות</span>
+      </div>
+      <div class="league-band__grid">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="FC Barcelona home jersey 2024 blue and deep red stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-7.webp" alt="חולצת ברצלונה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ברצלונה</span>
+            <span class="jersey-card__price">₪319</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Real Madrid home jersey 2024 white with gold trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-8.webp" alt="חולצת ריאל מדריד בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ריאל מדריד</span>
+            <span class="jersey-card__price">₪329</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Atletico Madrid home jersey 2024 red and white stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-9.webp" alt="חולצת אתלטיקו מדריד בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">אתלטיקו מדריד</span>
+            <span class="jersey-card__price">₪279</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Sevilla FC home jersey 2024 white with red trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-10.webp" alt="חולצת סביליה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">סביליה</span>
+            <span class="jersey-card__price">₪249</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Valencia CF home jersey 2024 white with black trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-11.webp" alt="חולצת ולנסיה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ולנסיה</span>
+            <span class="jersey-card__price">₪239</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- League 3: Serie A -->
+    <div class="league-band">
+      <div class="league-band__header">
+        <span class="league-band__accent league-band__accent--seriea"></span>
+        <h3>סרייה א׳</h3>
+        <span class="league-band__count">5 קבוצות</span>
+      </div>
+      <div class="league-band__grid">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Juventus home jersey 2024 black and white stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-12.webp" alt="חולצת יובנטוס בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">יובנטוס</span>
+            <span class="jersey-card__price">₪289</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="AC Milan home jersey 2024 red and black stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-13.webp" alt="חולצת מילאן בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">מילאן</span>
+            <span class="jersey-card__price">₪279</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Inter Milan home jersey 2024 blue and black stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-14.webp" alt="חולצת אינטר מילאן בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">אינטר</span>
+            <span class="jersey-card__price">₪289</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Napoli home jersey 2024 sky blue, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-15.webp" alt="חולצת נאפולי בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">נאפולי</span>
+            <span class="jersey-card__price">₪259</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="AS Roma home jersey 2024 deep red with yellow trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-16.webp" alt="חולצת רומא בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">רומא</span>
+            <span class="jersey-card__price">₪249</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- League 4: Bundesliga -->
+    <div class="league-band">
+      <div class="league-band__header">
+        <span class="league-band__accent league-band__accent--bundesliga"></span>
+        <h3>בונדסליגה</h3>
+        <span class="league-band__count">5 קבוצות</span>
+      </div>
+      <div class="league-band__grid">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Bayern Munich home jersey 2024 red with white trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-17.webp" alt="חולצת באיירן מינכן בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">באיירן מינכן</span>
+            <span class="jersey-card__price">₪299</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Borussia Dortmund home jersey 2024 yellow and black, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-18.webp" alt="חולצת בורוסיה דורטמונד בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">דורטמונד</span>
+            <span class="jersey-card__price">₪269</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="RB Leipzig home jersey 2024 white with red trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-19.webp" alt="חולצת לייפציג בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">לייפציג</span>
+            <span class="jersey-card__price">₪249</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Bayer Leverkusen home jersey 2024 red and black, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-20.webp" alt="חולצת באייר לברקוזן בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">לברקוזן</span>
+            <span class="jersey-card__price">₪239</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Eintracht Frankfurt home jersey 2024 black with red trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-21.webp" alt="חולצת איינטרכט פרנקפורט בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">פרנקפורט</span>
+            <span class="jersey-card__price">₪229</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- League 5: Champions League -->
+    <div class="league-band">
+      <div class="league-band__header">
+        <span class="league-band__accent league-band__accent--ucl"></span>
+        <h3>ליגת האלופות</h3>
+        <span class="league-band__count">4 קבוצות</span>
+      </div>
+      <div class="league-band__grid">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Paris Saint-Germain home jersey 2024 navy blue with red and white stripe, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-22.webp" alt="חולצת פריז סן ז׳רמן בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">פ.ס.ז׳</span>
+            <span class="jersey-card__price">₪309</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Ajax home jersey 2024 red and white, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-23.webp" alt="חולצת אייאקס בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">אייאקס</span>
+            <span class="jersey-card__price">₪259</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="FC Porto home jersey 2024 blue and white stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-24.webp" alt="חולצת פורטו בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">פורטו</span>
+            <span class="jersey-card__price">₪239</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Benfica home jersey 2024 red with white trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-25.webp" alt="חולצת בנפיקה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">בנפיקה</span>
+            <span class="jersey-card__price">₪249</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- League 6: National Teams -->
+    <div class="league-band">
+      <div class="league-band__header">
+        <span class="league-band__accent league-band__accent--national"></span>
+        <h3>נבחרות</h3>
+        <span class="league-band__count">6 קבוצות</span>
+      </div>
+      <div class="league-band__grid">
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Brazil national team home jersey 2024 yellow with green trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-26.webp" alt="חולצת נבחרת ברזיל בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ברזיל</span>
+            <span class="jersey-card__price">₪279</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Argentina national team home jersey 2024 white and sky blue stripes, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-27.webp" alt="חולצת נבחרת ארגנטינה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ארגנטינה</span>
+            <span class="jersey-card__price">₪289</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="France national team home jersey 2024 navy blue, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-28.webp" alt="חולצת נבחרת צרפת בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">צרפת</span>
+            <span class="jersey-card__price">₪279</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="England national team home jersey 2024 white with navy trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-29.webp" alt="חולצת נבחרת אנגליה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">אנגליה</span>
+            <span class="jersey-card__price">₪269</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Germany national team home jersey 2024 white with black trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-30.webp" alt="חולצת נבחרת גרמניה בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">גרמניה</span>
+            <span class="jersey-card__price">₪269</span>
+          </div>
+        </div>
+        <div class="jersey-card">
+          <div class="jersey-card__image-area">
+            <img data-context="Spain national team home jersey 2024 red with yellow trim, clean product photography on light grey background" width="300" height="400" src="/assets/top-shirts-e-commerce-sports-apparel-section-Home-section-5-home-section-5-image-31.webp" alt="חולצת נבחרת ספרד בית">
+          </div>
+          <div class="jersey-card__info">
+            <span class="jersey-card__team">ספרד</span>
+            <span class="jersey-card__price">₪259</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-section-5-section__cta">
+      <a href="/catalog" class="btn-primary">לכל החולצות</a>
     </div>
   </div>
 </section>
