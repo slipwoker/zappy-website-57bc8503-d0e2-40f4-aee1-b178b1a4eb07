@@ -48,7 +48,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: matkaetziony@gmail.com
+- Phone: 0535473869
+- Phone (tel): tel:0535473869
+- Address: Ram on, Ram on, Israel , 1920500, Israel
 
 ### Contact form
 - URL: https://example.com/contact
