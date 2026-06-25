@@ -1,0 +1,86 @@
+# TOP shirts — Generative Engine Optimization Map
+
+> An online store specializing in football jerseys with a vast collection organized by leagues (e.g., English Premier League, Spanish La Liga) and clubs (e.g., Manchester City, Barcelona). The store offers a unique customization feature allowing customers to print their name and preferred number on the back of any jersey, combining a rich product catalog with a personalized shopping experience for football fans.
+
+---
+
+## Pages
+
+### בית
+https://top-shirts-57bc8503.zappy5.app
+גלו את קולקציית חולצות הספורט המובילה עם הדפסים אישיים לפי שם ומספר. בחרו ממגוון ליגות ומועדונים, ותיהנו מחוויית קנייה ייחודית שמביאה את אהבת הכדורגל לכל מגרש. התחילו לעצב עכשיו!
+
+### ליגות
+https://top-shirts-57bc8503.zappy5.app/leagues
+דפדפו בין הליגות המובילות בעולם כמו הפרמייר ליג והלה ליגה. מצאו חולצות ספורט רשמיות לכל קבוצה, עם אפשרות להתאמה אישית שתגרום לכם להתבלט ביציע. הצטרפו לחגיגת הכדורגל עוד היום!
+
+### מועדונים
+https://top-shirts-57bc8503.zappy5.app/clubs
+מנצ&#39;סטר סיטי, ברצלונה ועוד מחכים לכם עם חולצות איכותיות. כל דגם זמין להתאמה אישית עם השם והמספר שלכם, כך שתוכלו להרגיש חלק מהקבוצה. לחצו כאן כדי למצוא את החולצה המושלמת!
+
+### התאמה אישית
+https://top-shirts-57bc8503.zappy5.app/customization
+עצבו חולצת כדורגל ייחודית עם השם והמספר שתבחרו. ממדי ספורט לגברים ועד חולצות ספורט לנשים, תנו דרור ליצירתיות והפכו כל משחק לחוויה אישית. התחילו להתאים אישית עכשיו!
+
+### צור קשר
+https://top-shirts-57bc8503.zappy5.app/contact
+יש לכם שאלה לגבי חולצות הספורט או ההתאמה האישית? צרו קשר עם הצוות שלנו לקבלת ייעוץ מהיר, מענה על הזמנות וטיפים לבחירת החולצה המושלמת. אנחנו כאן כדי לעזור לכם לנצח!
+
+### תודה על פנייתך | TOP shirts
+https://top-shirts-57bc8503.zappy5.app/thank-you
+TOP shirts - תודה על פנייתך | TOP shirts
+
+## Legal & Policy
+
+### Privacy Policy
+https://top-shirts-57bc8503.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://top-shirts-57bc8503.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://top-shirts-57bc8503.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://top-shirts-57bc8503.zappy5.app/contact
+- Endpoint: https://top-shirts-57bc8503.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About TOP shirts
+An online store specializing in football jerseys with a vast collection organized by leagues (e.g., English Premier League, Spanish La Liga) and clubs (e.g., Manchester City, Barcelona). The store offers a unique customization feature allowing customers to print their name and preferred number on the back of any jersey, combining a rich product catalog with a personalized shopping experience for football fans.
+
+## Target Audience
+- אוהדי כדורגל
+- אוהדי כדורגל נלהבים
+- שחקני כדורגל צעירים
+
+## Industry
+E-commerce / Sports Apparel
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://top-shirts-57bc8503.zappy5.app/sitemap.xml
+- Robots: https://top-shirts-57bc8503.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://top-shirts-57bc8503.zappy5.app/llms-full.txt
