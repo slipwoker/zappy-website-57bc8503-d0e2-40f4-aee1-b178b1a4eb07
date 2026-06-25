@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://example.com
+https://top-shirts.zappy5.app
 גלו את קולקציית חולצות הספורט המובילה עם הדפסים אישיים לפי שם ומספר. בחרו ממגוון ליגות ומועדונים, ותיהנו מחוויית קנייה ייחודית שמביאה את אהבת הכדורגל לכל מגרש. התחילו לעצב עכשיו!
 
 ### ליגות
-https://example.com/leagues
+https://top-shirts.zappy5.app/leagues
 דפדפו בין הליגות המובילות בעולם כמו הפרמייר ליג והלה ליגה. מצאו חולצות ספורט רשמיות לכל קבוצה, עם אפשרות להתאמה אישית שתגרום לכם להתבלט ביציע. הצטרפו לחגיגת הכדורגל עוד היום!
 
 ### מועדונים
-https://example.com/clubs
+https://top-shirts.zappy5.app/clubs
 מנצ&#39;סטר סיטי, ברצלונה ועוד מחכים לכם עם חולצות איכותיות. כל דגם זמין להתאמה אישית עם השם והמספר שלכם, כך שתוכלו להרגיש חלק מהקבוצה. לחצו כאן כדי למצוא את החולצה המושלמת!
 
 ### התאמה אישית
-https://example.com/customization
+https://top-shirts.zappy5.app/customization
 עצבו חולצת כדורגל ייחודית עם השם והמספר שתבחרו. ממדי ספורט לגברים ועד חולצות ספורט לנשים, תנו דרור ליצירתיות והפכו כל משחק לחוויה אישית. התחילו להתאים אישית עכשיו!
 
 ### צור קשר
-https://example.com/contact
+https://top-shirts.zappy5.app/contact
 יש לכם שאלה לגבי חולצות הספורט או ההתאמה האישית? צרו קשר עם הצוות שלנו לקבלת ייעוץ מהיר, מענה על הזמנות וטיפים לבחירת החולצה המושלמת. אנחנו כאן כדי לעזור לכם לנצח!
 
 ### תודה על פנייתך | TOP shirts
-https://example.com/thank-you
+https://top-shirts.zappy5.app/thank-you
 TOP shirts - תודה על פנייתך | TOP shirts
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://top-shirts.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://top-shirts.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://top-shirts.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -54,8 +54,8 @@ Information about WCAG compliance and accessibility features.
 - Address: Ram on, Ram on, Israel , 1920500, Israel
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://top-shirts.zappy5.app/contact
+- Endpoint: https://top-shirts.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -84,6 +84,6 @@ E-commerce / Sports Apparel
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://top-shirts.zappy5.app/sitemap.xml
+- Robots: https://top-shirts.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://top-shirts.zappy5.app/llms-full.txt
